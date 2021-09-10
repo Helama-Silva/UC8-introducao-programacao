@@ -1,0 +1,20 @@
+table {
+    border: solid black 2px;
+    margin: 0px;
+}
+th {
+    border: solid 2px;
+    margin: 0px;
+}
+tbody {
+    border: solid 1px;
+    margin: 0px;
+
+}
+td {
+    border: solid 1px;
+    margin: 0px;
+}
+body {
+    font-size: medium;
+}

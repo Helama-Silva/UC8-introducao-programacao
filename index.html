@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>UC8 - Atividade - 02</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body onload="loadList();">
+        <h1>Cadastro de Evento e Participantes</h1>
+        <h2>Novo Evento</h2>
+
+        <label>Data do Evento:</label>
+        <input type="datetime-local" name="dateLecture" id="dateLecture" />
+
+        <label>Nome do Evento:</label>
+        <input type="text" name="nameLecture" id="nameLecture" />
+
+        <label>Nome do Palestrante:</label>
+        <input type="text" name="nameSpeaker" id="nameSpeaker" />
+
+        <input type="button" value="Salvar" onclick="saveEvent()"/>
+
+        <h2>Participante</h2>
+
+        <label> Selecione o Evento</label>
+        <select name="eventList" id="eventList"></select>
+
+        <label> Nome do Participante</label>
+        <input type="text" name="nameParticipant" id="nameParticipant" />
+
+        <label> Idade do Participante</label>
+        <input type="number" name="ageParticipant" id="ageParticipant" />
+
+        <input type="button" value="Salvar" onclick="saveParticipant()" />
+        <h3>Console Evento</h3>
+        <input type="button" value="Print Evento" onclick="printLecture()" />
+    </body>
+</html>
